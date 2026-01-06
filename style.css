@@ -4,6 +4,7 @@
     --framebg: #333;
     --bg: #000;
     --fg: wheat;
+    --btnbg: #555;
 }
 
 body
@@ -25,4 +26,22 @@ body
     width: 400px;
     height: 400px;
     background-color: var(--framebg);
+    border-radius: 20px;
+
+    /* PADDING */
+    padding: 20px;
+    box-sizing: border-box;
+
+    /* DISPLAY */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.button
+{
+    width: 100px;
+    height: 100px;
+    background-color: var(--btnbg);
 }
