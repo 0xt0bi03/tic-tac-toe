@@ -1,5 +1,28 @@
+
+:root
+{
+    --framebg: #333;
+    --bg: #000;
+    --fg: wheat;
+}
+
 body
 {
-    background-color: black;
-    color: antiquewhite;
+    background-color: var(--bg);
+    color: var(--fg);
+
+    /* DISPLAY */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+
+/* CONTAINER */
+.frame
+{
+    width: 400px;
+    height: 400px;
+    background-color: var(--framebg);
 }
