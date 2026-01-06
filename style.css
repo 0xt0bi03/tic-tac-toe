@@ -44,4 +44,17 @@ body
     width: 100px;
     height: 100px;
     background-color: var(--btnbg);
+    border-radius: 10px;
+
+    /* DISPLAY */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.button:active
+{
+    transform: scale(0.8);
+}
+
