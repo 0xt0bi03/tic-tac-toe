@@ -53,10 +53,6 @@ body
 
 }
 
-/* .button:active
-{
-    transform: scale(0.8);
-} */
 
 .button::before
 {
