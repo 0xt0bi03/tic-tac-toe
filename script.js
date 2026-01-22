@@ -1,8 +1,8 @@
 let turn = true;
 
-let button = document.querySelectorAll('.button');
+let text = document.querySelectorAll('.txt');
 
-button.forEach(btn => {
+text.forEach(btn => {
     btn.addEventListener('click', () => {
         if (turn)
         {

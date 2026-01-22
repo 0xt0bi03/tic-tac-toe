@@ -53,16 +53,15 @@ body
 
 }
 
-.button:active {
-  transform: scale(0.95);
-  animation: none; /* Cancel jelly animation if button is pressed again */
-}
+
 
 /* Jelly wobble when released */
 .button:active {
   transform: scale(0.9);
-  animation: none; /* Cancel jelly animation if button is pressed again */
+  transition: transform 0.3s ease;
+  animation: none;
 }
+/* Cancel jelly animation if button is pressed again */
 
 /* Jelly wobble when released */
 @keyframes jelly {
