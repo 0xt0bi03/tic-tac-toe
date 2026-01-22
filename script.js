@@ -13,5 +13,4 @@ button.forEach(btn => {
             btn.textContent = 'O';
         }
     })
-}
-)
+})
