@@ -8,6 +8,7 @@ text.forEach(btn => {
         {
             btn.textContent = 'X';
         }
+        
         else
         {
             btn.textContent = 'O';
