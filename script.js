@@ -1,5 +1,6 @@
 let turn = true;
 
+
 let text = document.querySelectorAll('.txt');
 
 text.forEach(btn => {
@@ -8,7 +9,7 @@ text.forEach(btn => {
         {
             btn.textContent = 'X';
         }
-        
+
         else
         {
             btn.textContent = 'O';
